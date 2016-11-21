@@ -1,0 +1,68 @@
+{
+    "name": "App\\Transformers\\TaskTransformer",
+    "line": 11,
+    "short_desc": "Class TaskTransformer",
+    "long_desc": "",
+    "hint": null,
+    "tags": {
+        "package": [
+            [
+                "App\\Transformers"
+            ]
+        ]
+    },
+    "namespace": "App\\Transformers",
+    "file": "\/home\/manuel\/Code\/todosBackend\/app\/Transformers\/TaskTransformer.php",
+    "relative_file": null,
+    "hash": "f340b4e4369458d242a70a7f98bcfc7d7c9315b6",
+    "parent": "App\\Transformers\\Transformer",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "IncorrectModelException": "App\\Exceptions\\IncorrectModelException"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "transform": {
+            "name": "transform",
+            "line": 18,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\App\\Exceptions\\IncorrectModelException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "resource": {
+                    "name": "resource",
+                    "line": 18,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,52 @@
+{
+    "name": "App\\Transformers\\UserTransformer",
+    "line": 7,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Transformers",
+    "file": "\/home\/manuel\/Code\/todosBackend\/app\/Transformers\/UserTransformer.php",
+    "relative_file": null,
+    "hash": "1e1e45c84ee013663e4494d7e6535f47fcd0c7c0",
+    "parent": "App\\Transformers\\Transformer",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "IncorrectModelException": "App\\Exceptions\\IncorrectModelException"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "transform": {
+            "name": "transform",
+            "line": 9,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "resource": {
+                    "name": "resource",
+                    "line": 9,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

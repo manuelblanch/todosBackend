@@ -1,0 +1,66 @@
+{
+    "name": "App\\Repositories\\TaskRepository",
+    "line": 8,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Repositories",
+    "file": "\/home\/manuel\/Code\/todosBackend\/app\/Repositories\/TaskRepository.php",
+    "relative_file": null,
+    "hash": "f1c5a94429c1f7597e00118af2135a62f2eb8f51",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Repository": "App\\Repositories\\Contracts\\Repository",
+        "Task": "App\\Task"
+    },
+    "errors": [],
+    "interfaces": {
+        "App\\Repositories\\Contracts\\Repository": "App\\Repositories\\Contracts\\Repository"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "find": {
+            "name": "find",
+            "line": 11,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 11,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "columns": {
+                    "name": "columns",
+                    "line": 11,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "array('*')",
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

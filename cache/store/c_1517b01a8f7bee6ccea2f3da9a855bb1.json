@@ -1,0 +1,23 @@
+{
+    "name": "App\\Exceptions\\IncorrectModelException",
+    "line": 5,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Exceptions",
+    "file": "\/home\/manuel\/Code\/todosBackend\/app\/Exceptions\/IncorrectModelException.php",
+    "relative_file": null,
+    "hash": "884a3f0d482cd8959521e8c2f7c67248ccce5621",
+    "parent": "Exception",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

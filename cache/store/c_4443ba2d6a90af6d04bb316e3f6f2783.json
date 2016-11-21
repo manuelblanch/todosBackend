@@ -1,0 +1,26 @@
+{
+    "name": "App\\Console\\Kernel",
+    "line": 8,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Console",
+    "file": "\/home\/manuel\/Code\/todosBackend\/app\/Console\/Kernel.php",
+    "relative_file": null,
+    "hash": "74146c3c18ee945b55d8e6f2f91d26c7add8cd7a",
+    "parent": "Illuminate\\Foundation\\Console\\Kernel",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Schedule": "Illuminate\\Console\\Scheduling\\Schedule",
+        "ConsoleKernel": "Illuminate\\Foundation\\Console\\Kernel"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}
