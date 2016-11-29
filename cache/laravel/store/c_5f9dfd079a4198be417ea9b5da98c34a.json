@@ -1,0 +1,67 @@
+{
+    "name": "CreatePasswordResetsTable",
+    "line": 7,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "",
+    "file": "\/home\/manuel\/code\/todosBackend\/todosBackendApiDocs\/..\/todosBackendApiDocs\/todosBackend\/database\/migrations\/2014_10_12_100000_create_password_resets_table.php",
+    "relative_file": null,
+    "hash": "3cd6ccc81fe961ae8f753ce7f73f7577e6cb88ef",
+    "parent": "Illuminate\\Database\\Migrations\\Migration",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Seeder": "Illuminate\\Database\\Seeder",
+        "Migration": "Illuminate\\Database\\Migrations\\Migration",
+        "Blueprint": "Illuminate\\Database\\Schema\\Blueprint",
+        "Schema": "Illuminate\\Support\\Facades\\Schema"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "up": {
+            "name": "up",
+            "line": 14,
+            "short_desc": "Run the migrations.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "down": {
+            "name": "down",
+            "line": 28,
+            "short_desc": "Reverse the migrations.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

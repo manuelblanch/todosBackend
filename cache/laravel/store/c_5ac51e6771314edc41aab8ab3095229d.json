@@ -1,0 +1,66 @@
+{
+    "name": "App\\Repositories\\UserRepository",
+    "line": 8,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Repositories",
+    "file": "\/home\/manuel\/code\/todosBackend\/todosBackendApiDocs\/..\/todosBackendApiDocs\/todosBackend\/app\/Repositories\/UserRepository.php",
+    "relative_file": null,
+    "hash": "10ec27c9158a8e1cd689ed3e77ca2791cd01dcd0",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Repository": "App\\Repositories\\Contracts\\Repository",
+        "User": "App\\User"
+    },
+    "errors": [],
+    "interfaces": {
+        "App\\Repositories\\Contracts\\Repository": "App\\Repositories\\Contracts\\Repository"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "find": {
+            "name": "find",
+            "line": 11,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 11,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "columns": {
+                    "name": "columns",
+                    "line": 11,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "array('*')",
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}
