@@ -1,0 +1,43 @@
+{
+    "name": "App\\User",
+    "line": 8,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App",
+    "file": "\/home\/manuel\/code\/todosBackend\/todosBackendApiDocs\/..\/todosBackendApiDocs\/todosBackend\/app\/User.php",
+    "relative_file": null,
+    "hash": "a9c47fadb1e37e8e0fce38cab8b20620f3e25dc2",
+    "parent": "Illuminate\\Foundation\\Auth\\User",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Authenticatable": "Illuminate\\Foundation\\Auth\\User",
+        "Notifiable": "Illuminate\\Notifications\\Notifiable"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": {
+        "Illuminate\\Notifications\\Notifiable": "Illuminate\\Notifications\\Notifiable"
+    },
+    "properties": [],
+    "methods": {
+        "tasks": {
+            "name": "tasks",
+            "line": 30,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

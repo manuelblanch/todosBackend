@@ -1,0 +1,1705 @@
+{
+    "name": "Auth",
+    "line": 1261,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "",
+    "file": "\/home\/manuel\/code\/todosBackend\/todosBackendApiDocs\/..\/todosBackendApiDocs\/todosBackend\/_ide_helper.php",
+    "relative_file": null,
+    "hash": "90a790a179bdf2ce4bef2b915e9e4bcb16bd1f7a",
+    "parent": "Illuminate\\Support\\Facades\\Auth",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "guard": {
+            "name": "guard",
+            "line": 1270,
+            "short_desc": "Attempt to get the guard from the local cache.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\Contracts\\Auth\\Guard",
+                    false
+                ],
+                [
+                    "\\Illuminate\\Contracts\\Auth\\StatefulGuard",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 1270,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "createSessionDriver": {
+            "name": "createSessionDriver",
+            "line": 1282,
+            "short_desc": "Create a session based authentication guard.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\Auth\\SessionGuard",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 1282,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "config": {
+                    "name": "config",
+                    "line": 1282,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "createTokenDriver": {
+            "name": "createTokenDriver",
+            "line": 1294,
+            "short_desc": "Create a token based authentication guard.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\Auth\\TokenGuard",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 1294,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "config": {
+                    "name": "config",
+                    "line": 1294,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getDefaultDriver": {
+            "name": "getDefaultDriver",
+            "line": 1304,
+            "short_desc": "Get the default authentication driver name.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "shouldUse": {
+            "name": "shouldUse",
+            "line": 1315,
+            "short_desc": "Set the default guard driver the factory should serve.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 1315,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "setDefaultDriver": {
+            "name": "setDefaultDriver",
+            "line": 1326,
+            "short_desc": "Set the default authentication driver name.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 1326,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "viaRequest": {
+            "name": "viaRequest",
+            "line": 1338,
+            "short_desc": "Register a new callback based request guard.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "driver": {
+                    "name": "driver",
+                    "line": 1338,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "callback": {
+                    "name": "callback",
+                    "line": 1338,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "callable",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "userResolver": {
+            "name": "userResolver",
+            "line": 1348,
+            "short_desc": "Get the user resolver callback.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Closure",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "resolveUsersUsing": {
+            "name": "resolveUsersUsing",
+            "line": 1359,
+            "short_desc": "Set the callback to be used to resolve users.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "userResolver": {
+                    "name": "userResolver",
+                    "line": 1359,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\Closure",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "extend": {
+            "name": "extend",
+            "line": 1371,
+            "short_desc": "Register a custom driver creator Closure.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "driver": {
+                    "name": "driver",
+                    "line": 1371,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "callback": {
+                    "name": "callback",
+                    "line": 1371,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\Closure",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "provider": {
+            "name": "provider",
+            "line": 1383,
+            "short_desc": "Register a custom provider creator Closure.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 1383,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "callback": {
+                    "name": "callback",
+                    "line": 1383,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\Closure",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "createUserProvider": {
+            "name": "createUserProvider",
+            "line": 1395,
+            "short_desc": "Create the user provider implementation for the driver.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\Contracts\\Auth\\UserProvider",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\InvalidArgumentException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "provider": {
+                    "name": "provider",
+                    "line": 1395,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "user": {
+            "name": "user",
+            "line": 1405,
+            "short_desc": "Get the currently authenticated user.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\User",
+                    false
+                ],
+                [
+                    "null",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "id": {
+            "name": "id",
+            "line": 1415,
+            "short_desc": "Get the ID for the currently authenticated user.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ],
+                [
+                    "null",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "once": {
+            "name": "once",
+            "line": 1426,
+            "short_desc": "Log a user into the application without sessions or cookies.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "credentials": {
+                    "name": "credentials",
+                    "line": 1426,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "array()",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "validate": {
+            "name": "validate",
+            "line": 1437,
+            "short_desc": "Validate a user's credentials.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "credentials": {
+                    "name": "credentials",
+                    "line": 1437,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "array()",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "basic": {
+            "name": "basic",
+            "line": 1449,
+            "short_desc": "Attempt to authenticate using HTTP Basic Auth.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Symfony\\Component\\HttpFoundation\\Response",
+                    false
+                ],
+                [
+                    "null",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "field": {
+                    "name": "field",
+                    "line": 1449,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "'email'",
+                    "is_by_ref": false
+                },
+                "extraConditions": {
+                    "name": "extraConditions",
+                    "line": 1449,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "array()",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "onceBasic": {
+            "name": "onceBasic",
+            "line": 1461,
+            "short_desc": "Perform a stateless HTTP Basic login attempt.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Symfony\\Component\\HttpFoundation\\Response",
+                    false
+                ],
+                [
+                    "null",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "field": {
+                    "name": "field",
+                    "line": 1461,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "'email'",
+                    "is_by_ref": false
+                },
+                "extraConditions": {
+                    "name": "extraConditions",
+                    "line": 1461,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "array()",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "attempt": {
+            "name": "attempt",
+            "line": 1474,
+            "short_desc": "Attempt to authenticate a user using the given credentials.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "credentials": {
+                    "name": "credentials",
+                    "line": 1474,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "array()",
+                    "is_by_ref": false
+                },
+                "remember": {
+                    "name": "remember",
+                    "line": 1474,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "false",
+                    "is_by_ref": false
+                },
+                "login": {
+                    "name": "login",
+                    "line": 1474,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "true",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "attempting": {
+            "name": "attempting",
+            "line": 1485,
+            "short_desc": "Register an authentication attempt event listener.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "callback": {
+                    "name": "callback",
+                    "line": 1485,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "login": {
+            "name": "login",
+            "line": 1497,
+            "short_desc": "Log a user into the application.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "user": {
+                    "name": "user",
+                    "line": 1497,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\Illuminate\\Contracts\\Auth\\Authenticatable",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "remember": {
+                    "name": "remember",
+                    "line": 1497,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "false",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "loginUsingId": {
+            "name": "loginUsingId",
+            "line": 1509,
+            "short_desc": "Log the given user ID into the application.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\User",
+                    false
+                ],
+                [
+                    "\\false",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 1509,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "remember": {
+                    "name": "remember",
+                    "line": 1509,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "false",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "onceUsingId": {
+            "name": "onceUsingId",
+            "line": 1520,
+            "short_desc": "Log the given user ID into the application without sessions or cookies.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\User",
+                    false
+                ],
+                [
+                    "\\false",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 1520,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "logout": {
+            "name": "logout",
+            "line": 1530,
+            "short_desc": "Log the user out of the application.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getCookieJar": {
+            "name": "getCookieJar",
+            "line": 1541,
+            "short_desc": "Get the cookie creator instance used by the guard.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\Contracts\\Cookie\\QueueingFactory",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\RuntimeException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": []
+        },
+        "setCookieJar": {
+            "name": "setCookieJar",
+            "line": 1552,
+            "short_desc": "Set the cookie creator instance used by the guard.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "cookie": {
+                    "name": "cookie",
+                    "line": 1552,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\Illuminate\\Contracts\\Cookie\\QueueingFactory",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getDispatcher": {
+            "name": "getDispatcher",
+            "line": 1562,
+            "short_desc": "Get the event dispatcher instance.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\Contracts\\Events\\Dispatcher",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setDispatcher": {
+            "name": "setDispatcher",
+            "line": 1573,
+            "short_desc": "Set the event dispatcher instance.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "events": {
+                    "name": "events",
+                    "line": 1573,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\Illuminate\\Contracts\\Events\\Dispatcher",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSession": {
+            "name": "getSession",
+            "line": 1583,
+            "short_desc": "Get the session store used by the guard.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\Session\\Store",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getProvider": {
+            "name": "getProvider",
+            "line": 1593,
+            "short_desc": "Get the user provider used by the guard.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\Contracts\\Auth\\UserProvider",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setProvider": {
+            "name": "setProvider",
+            "line": 1604,
+            "short_desc": "Set the user provider used by the guard.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "provider": {
+                    "name": "provider",
+                    "line": 1604,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\Illuminate\\Contracts\\Auth\\UserProvider",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getUser": {
+            "name": "getUser",
+            "line": 1614,
+            "short_desc": "Return the currently cached user.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\User",
+                    false
+                ],
+                [
+                    "null",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setUser": {
+            "name": "setUser",
+            "line": 1625,
+            "short_desc": "Set the current user.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "user": {
+                    "name": "user",
+                    "line": 1625,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\Illuminate\\Contracts\\Auth\\Authenticatable",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getRequest": {
+            "name": "getRequest",
+            "line": 1635,
+            "short_desc": "Get the current request instance.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Symfony\\Component\\HttpFoundation\\Request",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setRequest": {
+            "name": "setRequest",
+            "line": 1646,
+            "short_desc": "Set the current request instance.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 1646,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\Symfony\\Component\\HttpFoundation\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getLastAttempted": {
+            "name": "getLastAttempted",
+            "line": 1656,
+            "short_desc": "Get the last user we attempted to authenticate.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getName": {
+            "name": "getName",
+            "line": 1666,
+            "short_desc": "Get a unique identifier for the auth session value.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getRecallerName": {
+            "name": "getRecallerName",
+            "line": 1676,
+            "short_desc": "Get the name of the cookie used to store the \"recaller\".",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "viaRemember": {
+            "name": "viaRemember",
+            "line": 1686,
+            "short_desc": "Determine if the user was authenticated via \"remember me\" cookie.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "authenticate": {
+            "name": "authenticate",
+            "line": 1697,
+            "short_desc": "Determine if the current user is authenticated.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\Illuminate\\Auth\\AuthenticationException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": []
+        },
+        "check": {
+            "name": "check",
+            "line": 1707,
+            "short_desc": "Determine if the current user is authenticated.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "guest": {
+            "name": "guest",
+            "line": 1717,
+            "short_desc": "Determine if the current user is a guest.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

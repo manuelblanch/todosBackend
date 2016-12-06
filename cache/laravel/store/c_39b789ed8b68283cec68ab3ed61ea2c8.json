@@ -1,0 +1,54 @@
+{
+    "name": "App\\Transformers\\Transformer",
+    "line": 7,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Transformers",
+    "file": "\/home\/manuel\/code\/todosBackend\/todosBackendApiDocs\/..\/todosBackendApiDocs\/todosBackend\/app\/Transformers\/Transformer.php",
+    "relative_file": null,
+    "hash": "11058094894366ab67cb45a2c06b41135d0a0203",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "TransformerContract": "App\\Transformers\\Contracts\\Transformer"
+    },
+    "errors": [],
+    "interfaces": {
+        "App\\Transformers\\Contracts\\Transformer": "App\\Transformers\\Contracts\\Transformer"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "transformCollection": {
+            "name": "transformCollection",
+            "line": 8,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "resources": {
+                    "name": "resources",
+                    "line": 8,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}
