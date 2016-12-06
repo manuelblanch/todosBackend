@@ -1,4 +1,6 @@
 <?php
+// config/config.php
+
 $dir = __DIR__ . '/app';
 
 $iterator = Symfony\Component\Finder\Finder::create()
@@ -10,13 +12,11 @@ $iterator = Symfony\Component\Finder\Finder::create()
 
 $options = [
     'theme'                => 'default',
-    'title'                => 'Documentation',
-    'build_dir'            => __DIR__ . '/laravel',
-    'cache_dir'            => __DIR__ . '/cache',
+    'title'                => 'Laravel API Documentation',
+    'build_dir'            => __DIR__ . '/../build/laravel',
+    'cache_dir'            => __DIR__ . '/../cache/laravel',
 ];
 
 $sami = new Sami\Sami($iterator, $options);
 
 return $sami;
-
-?>
