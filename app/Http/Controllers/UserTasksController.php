@@ -7,6 +7,10 @@ use App\User;
 use Illuminate\Http\Request;
 
 
+/**
+ * Class UserTasksController
+ * @package App\Http\Controllers
+ */
 class UserTasksController extends Controller
 {
     /**
